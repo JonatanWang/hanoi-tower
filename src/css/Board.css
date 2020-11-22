@@ -1,0 +1,26 @@
+.Board {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+
+.Rod {
+    width: 20%;
+    border-bottom: 1px solid black;
+    height: 400px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.Rod-stick {
+    width: 1px;
+    height: 200px;
+    background-color: black;
+}
